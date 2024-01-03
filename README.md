@@ -20,4 +20,4 @@ Rock-Paper-Scissors, in Pygame.
 A remake of Space Invaders, way less in complexity.
 
 # Unfinished
-Two unfinished games, including A grid game, and Wall-Breaker, and Two physics simulations, including Projectile and Circular Motion.
+Two unfinished games, including a grid game, and Wall-Breaker, and Two physics simulations, including Projectile and Circular Motion.
