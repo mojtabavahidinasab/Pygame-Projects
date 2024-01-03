@@ -1,7 +1,7 @@
 # Pygame-All-Projects
 All of my projects in Pygame, upto date.
 
-# Calcular
+# Calculator
 A simple calculator, that performs addition, subtraction, multiplication and division.
 
 # Games
