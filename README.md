@@ -13,6 +13,9 @@ Finished Playable Games, which are:
 # Hand-Cricket
 A game of Hand Cricket, in Pygame.
 
+# Hangman
+A simple game of Hangman.
+
 # Rock-Paper-Scissors
 Rock-Paper-Scissors, in Pygame.
 
