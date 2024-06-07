@@ -9,7 +9,7 @@ class Bullet:
         self.height = 5
         self.color = (240, 240, 240)
         self.rect = pygame.Rect(self.x, self.y, self.width, self.height)
-        self.img = pygame.transform.scale(pygame.image.load("assets/images/bullet.png"), (5, 5))
+        self.img = pygame.transform.scale(pygame.image.load("Top-Down-Tank-Game/assets/images/bullet.png"), (5, 5))
 
     def draw(self, win):
         win.blit(self.img, (self.x, self.y))

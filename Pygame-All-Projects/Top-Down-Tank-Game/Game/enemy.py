@@ -9,7 +9,7 @@ class Enemy:
         self.color = (200, 150, 150)
         self.speed = 5
         self.rect = pygame.Rect(self.x, self.y, self.width, self.height)
-        self.img = pygame.transform.scale(pygame.image.load("assets/images/enemy.png"), (40, 40))
+        self.img = pygame.transform.scale(pygame.image.load("Top-Down-Tank-Game/assets/images/enemy.png"), (40, 40))
 
     def draw(self, win):
         

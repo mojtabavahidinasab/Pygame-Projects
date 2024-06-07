@@ -10,11 +10,11 @@ class Player:
         self.center_x = self.x + self.width/2
         self.center_y = self.y + self.height/2
         self.visible = True
-        self.img = pygame.transform.scale(pygame.image.load("assets/images/Tanks.png"), (64, 64))
+        self.img = pygame.transform.scale(pygame.image.load("Top-Down-Tank-Game/assets/images/Tanks.png"), (64, 64))
         self.dirn = 0
 
 #----------Cannon----------#
-        self.cannon_img = pygame.transform.scale(pygame.image.load("assets/images/cannon.png"), (50, 50))
+        self.cannon_img = pygame.transform.scale(pygame.image.load("Top-Down-Tank-Game/assets/images/cannon.png"), (50, 50))
 
         self.cannon_left_x = self.center_x - 50
         self.cannon_left_y = self.center_y - 25
