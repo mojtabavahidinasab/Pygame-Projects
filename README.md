@@ -33,3 +33,4 @@ Two unfinished games, including a grid game, and Wall-Breaker, and Two physics s
 
 # Wordle-remake
 Remake of the popular web game, Wordle.
+(A couple of bugs in this code, which I will fix later).
