@@ -1,4 +1,4 @@
-# Pygame-All-Projects
+# Pygame-Projects
 All of my projects in Pygame, upto date.
 
 # Calculator
