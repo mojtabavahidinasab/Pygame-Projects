@@ -7,7 +7,7 @@ class Panel:
         self.y = y
         self.width, self.height = 50, 50
         self.text = text
-        self.font = pygame.font.Font("assets/font.ttf", 30)
+        self.font = pygame.font.Font("Pygame-Projects/Wordle-remake/assets/font.ttf", 30)
         self.rect = pygame.Rect(self.x, self.y, self.width, self.height)
         self.color_main = (30, 30, 30)
 

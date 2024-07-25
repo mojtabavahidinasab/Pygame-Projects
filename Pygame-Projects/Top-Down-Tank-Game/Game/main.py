@@ -42,8 +42,8 @@ class Main:
         self.bullet_count = Label("Bullets: ", self.bullets - self.counter, self.color, (1330, 300))
         self.score_label = Label("Score: ", self.score, self.color, (1330, 400))
         self.menu = Menu(1250, 100)
-        self.tank_shooting = pygame.mixer.Sound("Pygame-All-Projects/Top-Down-Tank-Game/assets/sounds/tank-shooting.wav")
-        self.tank_hit = pygame.mixer.Sound("Pygame-All-Projects/Top-Down-Tank-Game/assets/sounds/tank-hit.mp3")
+        self.tank_shooting = pygame.mixer.Sound("Pygame-Projects/Top-Down-Tank-Game/assets/sounds/tank-shooting.wav")
+        self.tank_hit = pygame.mixer.Sound("Pygame-Projects/Top-Down-Tank-Game/assets/sounds/tank-hit.mp3")
 
     def enemy_bullet_collision(self):
         for enemy in self.enemy_list[:]:

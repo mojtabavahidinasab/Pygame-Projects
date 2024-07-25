@@ -7,7 +7,7 @@ pygame.font.init()
 class Player:
     def __init__(self):
         self.width = self.height = 64
-        self.img = pygame.transform.scale((pygame.image.load('Space-Invaders/Assets/player_img.png')), (self.width, self.height))
+        self.img = pygame.transform.scale((pygame.image.load('Pygame-Projects/Space-Invaders/Assets/player_img.png')), (self.width, self.height))
         self.x = ((640 - self.width)//2)
         self.y = 500
         self.vel = 32
@@ -54,7 +54,7 @@ class Player:
 class Enemy:
     def __init__(self, x, y):
         self.width = self.height = 48
-        self.img = pygame.transform.scale((pygame.image.load('Space-Invaders/Assets/enemy.png')), (self.width, self.height))
+        self.img = pygame.transform.scale((pygame.image.load('Pygame-Projects/Space-Invaders/Assets/enemy.png')), (self.width, self.height))
         self.x = x
         self.y = y
         self.vel_list = [2, 4, 6, 8, 10, 12]

@@ -13,7 +13,7 @@ print("When the score resets to 0, understand that the Player is out, and now th
 time.sleep(0.2)
 print("The code is one of the worst that I've written, I dont even remember the amount of variables I've created.")
 
-mixer.music.load("Hand-Cricket/sound.mp3")
+mixer.music.load("Pygame-Projects/Hand-Cricket/sound.mp3")
 mixer.music.set_volume(0.9)
 
 pygame.display.set_caption("Hand Cricket!")
@@ -46,7 +46,7 @@ class Main:
         self.width = self.height = 600
         self.win = pygame.display.set_mode((self.width, self.height))
         self.color_main = (240, 240, 240)
-        self.font = pygame.font.Font('Hand-Cricket/moran.ttf', 30)
+        self.font = pygame.font.Font('Pygame-Projects/Hand-Cricket/moran.ttf', 30)
         self.pos = (0, 0)
         self.bat_score = 0
         self.clock = pygame.time.Clock()

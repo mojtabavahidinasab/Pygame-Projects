@@ -14,12 +14,12 @@ import time
 pygame.init()
 mixer.init()
 
-mixer.music.load("Hangman/click.wav")
+mixer.music.load("Pygame-Projects/Hangman/click.wav")
 mixer.music.set_volume(0.9)
 
 words = ['JETHALAL', 'DAYA', 'CHAMPAKLAL', 'TAPU', 'MEHTA', 'ANJALI', 'BHIDE', 'SONU', 'MADHVI', 'POPATLAL', 'ABDUL', 'ROSHAN', 'GOGI', 'PINKU', 'KOMAL', 'HATHI', 'GOLI', 'IYER', 'BABITA', 'NATU', 'BAGHA', 'BAWRI']
 
-images = [pygame.image.load("Hangman/images/hangman0.png"), pygame.image.load("Hangman/images/hangman1.png"),pygame.image.load("Hangman/images/hangman2.png"), pygame.image.load("Hangman/images/hangman3.png"), pygame.image.load("Hangman/images/hangman4.png"), pygame.image.load("Hangman/images/hangman5.png"), pygame.image.load("Hangman/images/hangman6.png")]
+images = [pygame.image.load("Pygame-Projects/Hangman/images/hangman0.png"), pygame.image.load("Pygame-Projects/Hangman/images/hangman1.png"),pygame.image.load("Pygame-Projects/Hangman/images/hangman2.png"), pygame.image.load("Pygame-Projects/Hangman/images/hangman3.png"), pygame.image.load("Pygame-Projects/Hangman/images/hangman4.png"), pygame.image.load("Pygame-Projects/Hangman/images/hangman5.png"), pygame.image.load("Pygame-Projects/Hangman/images/hangman6.png")]
 
 class Button:
     def __init__(self, x, y, letter):

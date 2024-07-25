@@ -10,7 +10,7 @@ class Utility_button:
         self.text = text
 
     def draw(self, win):
-        font = pygame.font.Font("assets/font.ttf", 35)
+        font = pygame.font.Font("Pygame-Projects/Wordle-remake/assets/font.ttf", 35)
         
         pygame.draw.rect(win, (60, 60, 60), pygame.Rect(self.x, self.y, self.width, self.height))
 

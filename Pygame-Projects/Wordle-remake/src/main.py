@@ -10,7 +10,7 @@ from utility_btn import Utility_button
 btn_width ,btn_height = 40, 60
 panel_w = panel_h = 50
 
-WORD_LIST = ["ALIVE", "DEATH", "MOUSE", "MONEY", "WOULD", "COULD", "MESSI"]
+WORD_LIST = ["ALIVE", "DEATH", "MOUSE", "MONEY", "WOULD", "COULD", "PHONE", "WATCH", "WIRES", "GAMES", "GRASS"]
 
 WORD = random.choice(WORD_LIST)
 

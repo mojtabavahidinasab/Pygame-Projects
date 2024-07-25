@@ -5,7 +5,7 @@ class Button:
         self.x = x
         self.y = y
         self.width, self.height = 40, 60
-        self.font = pygame.font.SysFont("assets/font.ttf", 30)
+        self.font = pygame.font.SysFont("Pygame-Projects/Wordle-remake/assets/font.ttf", 30)
         self.text = text
         self.color = (60, 60, 60)
         self.rect = pygame.Rect(self.x, self.y, self.width, self.height)
