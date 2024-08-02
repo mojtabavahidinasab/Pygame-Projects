@@ -1,6 +1,9 @@
 # Pygame-Projects
 All of my projects in Pygame, upto date.
 
+# 2048-x-Tetris
+A cross between 2048 and Tetris, made more as a proof-of-concept game idea than as a finished game. Will probably not complete the game. 
+
 # Calculator
 A simple calculator, that performs addition, subtraction, multiplication and division.
 
