@@ -22,6 +22,9 @@ A simple game of Hangman.
 # Paint
 Paint, in Pygame, with 8 different colors, an eraser, options such as reset and mirroring, and size change of pixels.
 
+# Puzzle-Slider-Game
+A Grid Game, from 3x3 to 6x6, where the aim is to arrange the numbers in ascending orders by swapping each cell with the blank cell horizontally, or vertically.
+
 # Rock-Paper-Scissors
 Rock-Paper-Scissors, in Pygame.
 
