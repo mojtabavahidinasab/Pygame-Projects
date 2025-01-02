@@ -12,13 +12,13 @@ import random
 pygame.init()
 mixer.init()
 
-mixer.music.load("Pygame-Projects/Rock-Paper-Scissors/assets/sound.mp3")
+mixer.music.load("./assets/sound.mp3")
 mixer.music.set_volume(0.9)
 
 pygame.display.set_caption("Rock-Paper-Scissors!")
 
 def get_image(name):
-    return pygame.transform.scale(pygame.image.load(join("Pygame-Projects/Rock-Paper-Scissors/assets", name)), (192, 192))
+    return pygame.transform.scale(pygame.image.load(join("./assets", name)), (192, 192))
 
 class Button:
     def __init__(self, x, y, image, name):
@@ -45,7 +45,7 @@ class App:
         self.Run = True
         self.pos, self.comp_choice, self.name_in_play, self.mouse_down = (0, 0), None, None, False
         self.Draw, self.Player_win, self.Comp_win = False, False, False
-        self.font = pygame.font.Font("Pygame-Projects/Rock-Paper-Scissors/assets/brightgear.otf", 48)
+        self.font = pygame.font.Font("./assets/brightgear.otf", 48)
 
     def draw_text(self, text, pos):
         rendered_text = self.font.render(text, True, (0, 0, 0), self.color)
